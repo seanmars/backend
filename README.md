@@ -11,6 +11,10 @@
 - [phpredis](https://github.com/phpredis/phpredis)
 
   A PHP extension for Redis
+
+- [Predis](https://github.com/nrk/predis)
+
+  Flexible and feature-complete Redis client for PHP and HHVM https://github.com/nrk/predis/wiki
   
 ## security
 - [Content Security Policy (CSP)](https://github.com/foundeo/content-security-policy.com/)
