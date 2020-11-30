@@ -1,0 +1,15 @@
+version: "3.1"
+services:
+  db:
+    image: mysql:8
+    restart: always
+    container_name: localdb
+    ports:
+      - 3306:3306
+    volumes:
+      - localdb-volume:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: PASSWORD
+  
+volumes:
+  localdb-volume:
